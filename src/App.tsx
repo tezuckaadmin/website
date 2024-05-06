@@ -23,7 +23,14 @@ export default function App() {
         id="video"
         className="bg-black flex justify-center items-center w-full h-screen"
       >
-        <video src="/videos/tezucka-health.mp4" width="500" controls></video>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/Ki7pwY4zpx0?si=mqISDsTHw_ucaynD"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          className="border border-white rounded-lg"
+        ></iframe>
       </div>
 
       <div className="fixed bottom-0 left-0 h-1/6 flex justify-center items-center flex-col w-full bg-black">
